@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#firstpage{
+    height: 28px;
+    width: 100%;
+    background: linear-gradient(180deg,#fc7171,#fc848f);
+    padding: 7px 0px 7px 15px;
+    position: relative;
+}
+#firstpage #sclass,#snum{
+    border:0px;    
+    width: 128px;
+    height: 26px;
+    font-size: 20px;
+}
+/* #firstpage #snum{
+    height: 22px;
+    width: 128px;
+    font-size: 20px;
+} */
+#firstpage #btns{
+    width: 220px;
+    height: 26px;
+    border:1px;
+    position: absolute;
+    right: 10px;
+    top:5px;
+}
+#firstpage #btns input{
+    width: 86px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 26px;
+}
+#nameData{
+    width: 1300px;
+    margin:0px auto;
+    background-color: pink;
+}
+#nameData li{
+    width: 140px;
+    height: 36px;
+    background-color: #CCC;
+    margin: 0px 10px 10px;
+    float: left;
+    list-style: none;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+}
+
